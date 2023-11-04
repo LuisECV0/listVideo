@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+ }
+
+.body {
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    display: flex;
+}
+
+header {
+    text-align: center;
+    margin: 10px;
+    padding: 20px;
+}
+
+input {
+    width: 30%;
+    padding: 5px 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.container {
+    text-align: center;
+}
+
+button {
+    background-color: rgb(50, 41, 99);
+    color: aliceblue;
+    font-weight: 700;
+    padding: 5px 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+    transition: .3s;
+    margin: 10px;
+}
+
+button:active {
+    transform:  scale(.8);
+    transition: .3s;
+}
+
+.videos-container{ 
+    border: 1px solid red;
+
+}
+
+video {
+    border: 10px solid yellow;
+    width: 10%;
+    height: auto;
+}

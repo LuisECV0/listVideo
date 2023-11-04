@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Lista de Reproducción de Videos</title>
+</head>
+<body>
+    <header>
+        <h1>Lista de Reproducción de Videos</h1>
+    </header>
+    <div class="container">
+        <input type="text" id="search" placeholder="Buscar por título">
+        <div class="filter">
+            <button class="filter-btn active" data-filter="all">Todo</button>
+            <button class="filter-btn" data-filter="comedia">Comedia</button>
+            <button class="filter-btn" data-filter="drama">Drama</button>
+            <button class="filter-btn" data-filter="accion">Acción</button>
+        </div>
+        
+        <div class="videos-container">
+            <div class="video-item comedia" data-title="Video 1">
+                <video controls>
+                    <source src="video1.mp4" type="video/mp4">
+                </video>
+                <h3>Video 1</h3>
+            </div>
+ 
+        </div>
+        <div>
+            <p>hola</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
